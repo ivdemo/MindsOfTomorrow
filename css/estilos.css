@@ -1,0 +1,12 @@
+body {
+    max-width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: justify;
+}
+
+header {
+    text-align: center;
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+}
