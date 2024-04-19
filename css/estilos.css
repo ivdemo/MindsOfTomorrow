@@ -5,8 +5,138 @@ body {
     justify-content: justify;
 }
 
+h1 {
+    font-size: 400%;
+}
+
+h3 {
+    font-size: 200%;
+}
+
 header {
     text-align: center;
     background-image: url(../img/banner-2.jpg);
     background-size: cover;
+}
+
+.sec2 {
+    display: flex;
+    
+}
+
+.sec2-1 {
+    text-align: left;
+    width: 100%;
+}
+
+.sec2-2 {
+    width: 100%;
+    display: flex;
+}
+
+.sec3 {
+    background-color: rgb(27, 223, 138);
+}
+
+.col4 {
+    text-align: center;
+}
+
+.sec3-1 {
+    width: 100%;
+    text-align: center;
+}
+
+.sec3-2 {
+    width: 25%;
+    text-align: center;
+}
+
+.imgsec3-2 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.sec4 {
+    width: 100%;
+    display: flex;
+}
+
+.imgsec4-1 {
+    width: 100%;
+}
+
+.sec4-2 {
+    width: 100%;
+}
+
+.sec5 {
+    width: 100%;
+}
+
+.imgsec5 {
+    width: 25%;
+    float: left;
+}
+
+.sec6 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(40, 169, 255);
+}
+
+.sec7 {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.sec7-1 {
+    width: 50%;
+    display: flex;
+    margin-left: 5%;
+}
+
+.sec7-2 {
+    width: 50%;
+    display: flex;
+}
+
+.sec7-2-1 {
+    width: 50%;
+}
+
+.block {
+    display: block;
+}
+
+@media screen and (max-width: 700px) {
+    .sec3-2 {
+        width: 50%;
+        padding: 2%;
+        text-align: center;
+    }
+
+    .imgsec3-2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .sec2 {
+        display: block;
+    }
+
+    .sec4 {
+        width: 100%;
+        display: block;
+    }
+
+    .imgsec5 {
+        width: 50%;
+        float: left;
+    }
 }
